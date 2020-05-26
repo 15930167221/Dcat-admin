@@ -16,4 +16,6 @@ Route::group([
     $router->resource('users', 'UserController');
     $router->resource('test', 'TestController');
     $router->resource('workuser', 'WorkUserController');
+    $router->resource('workorder', 'WorkOrderController');
+    $router->post('workorder/add', 'WorkOrderController@add');
 });

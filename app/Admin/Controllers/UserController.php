@@ -64,11 +64,17 @@ class UserController extends AdminController
     {
         return Form::make(new User(), function (Form $form) {
             $form->display('id');
-            $form->text('name');
-            $form->text('email');
-            $form->text('email_verified_at');
-            $form->text('password');
-            $form->text('remember_token');
+            $form->text('名称');
+            $form->text('地点');
+            $form->date('时间');
+            $form->checkbox("人员")
+    ->options([1 => 'foo', 2 => 'bar', 'val' => 'Option name'])
+                ->saving(function ($value) {
+                    // 转化成json字符串保存到数据库
+                    return json_encode($value);
+                });
+
+
         
             $form->display('created_at');
             $form->display('updated_at');
