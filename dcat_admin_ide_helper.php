@@ -40,25 +40,29 @@ namespace Dcat\Admin {
      * @property Grid\Column|Collection text
      * @property Grid\Column|Collection type
      * @property Grid\Column|Collection time
-     * @property Grid\Column|Collection ctime
      * @property Grid\Column|Collection tel
-     * @property Grid\Column|Collection icon
-     * @property Grid\Column|Collection order
+     * @property Grid\Column|Collection ctime
+     * @property Grid\Column|Collection area
+     * @property Grid\Column|Collection workdate
+     * @property Grid\Column|Collection uid
+     * @property Grid\Column|Collection money
      * @property Grid\Column|Collection parent_id
+     * @property Grid\Column|Collection order
+     * @property Grid\Column|Collection icon
      * @property Grid\Column|Collection uri
      * @property Grid\Column|Collection user_id
-     * @property Grid\Column|Collection menu_id
      * @property Grid\Column|Collection permission_id
+     * @property Grid\Column|Collection menu_id
      * @property Grid\Column|Collection http_method
      * @property Grid\Column|Collection http_path
      * @property Grid\Column|Collection role_id
      * @property Grid\Column|Collection connection
+     * @property Grid\Column|Collection queue
+     * @property Grid\Column|Collection payload
      * @property Grid\Column|Collection exception
      * @property Grid\Column|Collection failed_at
-     * @property Grid\Column|Collection payload
-     * @property Grid\Column|Collection queue
-     * @property Grid\Column|Collection batch
      * @property Grid\Column|Collection migration
+     * @property Grid\Column|Collection batch
      *
      * @method Grid\Column|Collection id(string $label = null)
      * @method Grid\Column|Collection username(string $label = null)
@@ -89,25 +93,29 @@ namespace Dcat\Admin {
      * @method Grid\Column|Collection text(string $label = null)
      * @method Grid\Column|Collection type(string $label = null)
      * @method Grid\Column|Collection time(string $label = null)
-     * @method Grid\Column|Collection ctime(string $label = null)
      * @method Grid\Column|Collection tel(string $label = null)
-     * @method Grid\Column|Collection icon(string $label = null)
-     * @method Grid\Column|Collection order(string $label = null)
+     * @method Grid\Column|Collection ctime(string $label = null)
+     * @method Grid\Column|Collection area(string $label = null)
+     * @method Grid\Column|Collection workdate(string $label = null)
+     * @method Grid\Column|Collection uid(string $label = null)
+     * @method Grid\Column|Collection money(string $label = null)
      * @method Grid\Column|Collection parent_id(string $label = null)
+     * @method Grid\Column|Collection order(string $label = null)
+     * @method Grid\Column|Collection icon(string $label = null)
      * @method Grid\Column|Collection uri(string $label = null)
      * @method Grid\Column|Collection user_id(string $label = null)
-     * @method Grid\Column|Collection menu_id(string $label = null)
      * @method Grid\Column|Collection permission_id(string $label = null)
+     * @method Grid\Column|Collection menu_id(string $label = null)
      * @method Grid\Column|Collection http_method(string $label = null)
      * @method Grid\Column|Collection http_path(string $label = null)
      * @method Grid\Column|Collection role_id(string $label = null)
      * @method Grid\Column|Collection connection(string $label = null)
+     * @method Grid\Column|Collection queue(string $label = null)
+     * @method Grid\Column|Collection payload(string $label = null)
      * @method Grid\Column|Collection exception(string $label = null)
      * @method Grid\Column|Collection failed_at(string $label = null)
-     * @method Grid\Column|Collection payload(string $label = null)
-     * @method Grid\Column|Collection queue(string $label = null)
-     * @method Grid\Column|Collection batch(string $label = null)
      * @method Grid\Column|Collection migration(string $label = null)
+     * @method Grid\Column|Collection batch(string $label = null)
      */
     class Grid {}
 
@@ -143,25 +151,29 @@ namespace Dcat\Admin {
      * @property Show\Field|Collection text
      * @property Show\Field|Collection type
      * @property Show\Field|Collection time
-     * @property Show\Field|Collection ctime
      * @property Show\Field|Collection tel
-     * @property Show\Field|Collection icon
-     * @property Show\Field|Collection order
+     * @property Show\Field|Collection ctime
+     * @property Show\Field|Collection area
+     * @property Show\Field|Collection workdate
+     * @property Show\Field|Collection uid
+     * @property Show\Field|Collection money
      * @property Show\Field|Collection parent_id
+     * @property Show\Field|Collection order
+     * @property Show\Field|Collection icon
      * @property Show\Field|Collection uri
      * @property Show\Field|Collection user_id
-     * @property Show\Field|Collection menu_id
      * @property Show\Field|Collection permission_id
+     * @property Show\Field|Collection menu_id
      * @property Show\Field|Collection http_method
      * @property Show\Field|Collection http_path
      * @property Show\Field|Collection role_id
      * @property Show\Field|Collection connection
+     * @property Show\Field|Collection queue
+     * @property Show\Field|Collection payload
      * @property Show\Field|Collection exception
      * @property Show\Field|Collection failed_at
-     * @property Show\Field|Collection payload
-     * @property Show\Field|Collection queue
-     * @property Show\Field|Collection batch
      * @property Show\Field|Collection migration
+     * @property Show\Field|Collection batch
      *
      * @method Show\Field|Collection id(string $label = null)
      * @method Show\Field|Collection username(string $label = null)
@@ -192,25 +204,29 @@ namespace Dcat\Admin {
      * @method Show\Field|Collection text(string $label = null)
      * @method Show\Field|Collection type(string $label = null)
      * @method Show\Field|Collection time(string $label = null)
-     * @method Show\Field|Collection ctime(string $label = null)
      * @method Show\Field|Collection tel(string $label = null)
-     * @method Show\Field|Collection icon(string $label = null)
-     * @method Show\Field|Collection order(string $label = null)
+     * @method Show\Field|Collection ctime(string $label = null)
+     * @method Show\Field|Collection area(string $label = null)
+     * @method Show\Field|Collection workdate(string $label = null)
+     * @method Show\Field|Collection uid(string $label = null)
+     * @method Show\Field|Collection money(string $label = null)
      * @method Show\Field|Collection parent_id(string $label = null)
+     * @method Show\Field|Collection order(string $label = null)
+     * @method Show\Field|Collection icon(string $label = null)
      * @method Show\Field|Collection uri(string $label = null)
      * @method Show\Field|Collection user_id(string $label = null)
-     * @method Show\Field|Collection menu_id(string $label = null)
      * @method Show\Field|Collection permission_id(string $label = null)
+     * @method Show\Field|Collection menu_id(string $label = null)
      * @method Show\Field|Collection http_method(string $label = null)
      * @method Show\Field|Collection http_path(string $label = null)
      * @method Show\Field|Collection role_id(string $label = null)
      * @method Show\Field|Collection connection(string $label = null)
+     * @method Show\Field|Collection queue(string $label = null)
+     * @method Show\Field|Collection payload(string $label = null)
      * @method Show\Field|Collection exception(string $label = null)
      * @method Show\Field|Collection failed_at(string $label = null)
-     * @method Show\Field|Collection payload(string $label = null)
-     * @method Show\Field|Collection queue(string $label = null)
-     * @method Show\Field|Collection batch(string $label = null)
      * @method Show\Field|Collection migration(string $label = null)
+     * @method Show\Field|Collection batch(string $label = null)
      */
     class Show {}
 
